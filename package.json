@@ -4,8 +4,10 @@
   "description": "Script de login en Recorvet con Playwright",
   "type": "module",
   "scripts": {
-    "login": "playwright test tests/flujo2.spec.ts --project=chromium",
-    "login:headed": "playwright test tests/flujo2.spec.ts --project=chromium --headed"
+    "flujo1": "playwright test tests/flujo1.spec.ts --project=chromium",
+    "flujo1:headed": "playwright test tests/flujo1.spec.ts --project=chromium --headed",
+    "flujo2": "playwright test tests/flujo2.spec.ts --project=chromium",
+    "flujo2:headed": "playwright test tests/flujo2.spec.ts --project=chromium --headed"
   },
   "devDependencies": {
     "@playwright/test": "^1.58.2",
