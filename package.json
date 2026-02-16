@@ -1,0 +1,17 @@
+{
+  "name": "recorvet-login-script",
+  "version": "1.0.0",
+  "description": "Script de login en Recorvet con Playwright",
+  "type": "module",
+  "scripts": {
+    "login": "playwright test tests/flujo2.spec.ts --project=chromium",
+    "login:headed": "playwright test tests/flujo2.spec.ts --project=chromium --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.3"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}
